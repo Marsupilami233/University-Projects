@@ -1,0 +1,41 @@
+Lab3 list size is 5. Possible commands:
+MP3: ADDTAIL priority
+SORT sort# direction
+PRINTMP3
+
+List: INSERT
+FIND id
+REMOVE id
+UPDATE id state
+SCHEDULE id priority
+DETERMINE
+CLEAN
+REVERSE
+PRINT
+Queue      : ADDTAIL; RMHEAD; PRINTHEAD; PRINTQ
+           : STATS; QUIT
+
+
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+List has 1 record.
+   0: Task ID: 0 priority = 9 state = QUEUED
+Goodbye

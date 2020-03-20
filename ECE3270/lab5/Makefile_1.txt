@@ -1,0 +1,13 @@
+PROJECT = operation
+
+all: default
+
+
+default:
+	aoc -g -v $(PROJECT).cl
+
+optm:
+	aoc -g -v -c $(PROJECT).cl --report
+
+clean:
+	rm -rf *.aoco *.aocx $(PROJECT) $(PROJECT)_rtl

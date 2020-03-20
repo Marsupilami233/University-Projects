@@ -1,0 +1,81 @@
+Lab2 list size is 10. Possible commands:
+List: INSERT
+FIND id
+REMOVE id
+UPDATE id state
+SCHEDULE id priority
+DETERMINE
+REVERSE
+PRINT
+Queue      : ADDTAIL; RMHEAD; PRINTHEAD; PRINTQ
+           : STATS; QUIT
+Priority:Wallclocktime:Number of Args:Arg 0:
+Inserted: 0
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:
+Inserted: 1
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:Arg 2:
+Inserted: 2
+Number records: 3, Order: Ascending
+Number records in queue: 0
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = QUEUED
+   2: Task ID: 2 priority = 3 state = QUEUED
+Priority:Wallclocktime:Number of Args:Arg 0:
+Inserted: 3
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:
+Inserted: 4
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:Arg 2:
+Inserted: 5
+Number records: 6, Order: Ascending
+Number records in queue: 0
+List has 6 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 3 priority = 1 state = QUEUED
+   2: Task ID: 1 priority = 2 state = QUEUED
+   3: Task ID: 4 priority = 2 state = QUEUED
+   4: Task ID: 2 priority = 3 state = QUEUED
+   5: Task ID: 5 priority = 3 state = QUEUED
+Found: 1 at index 2
+Task ID: 1
+     priority = 2
+     state     = QUEUED
+     time = 2.000000e+00
+     nargs = 2
+     args = { 2,  2, }
+Found: 2 at index 4
+Task ID: 2
+     priority = 3
+     state     = QUEUED
+     time = 3.000000e+00
+     nargs = 3
+     args = { 3,  3,  3, }
+Found: 3 at index 1
+Task ID: 3
+     priority = 1
+     state     = QUEUED
+     time = 1.000000e+00
+     nargs = 1
+     args = { 1, }
+Removed: 1
+Task ID: 1
+     priority = 2
+     state     = QUEUED
+     time = 2.000000e+00
+     nargs = 2
+     args = { 2,  2, }
+Removed: 2
+Task ID: 2
+     priority = 3
+     state     = QUEUED
+     time = 3.000000e+00
+     nargs = 3
+     args = { 3,  3,  3, }
+Removed: 3
+Task ID: 3
+     priority = 1
+     state     = QUEUED
+     time = 1.000000e+00
+     nargs = 1
+     args = { 1, }
+Goodbye

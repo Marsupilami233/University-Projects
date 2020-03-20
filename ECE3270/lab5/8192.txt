@@ -1,0 +1,12 @@
+root@socfpga:~/lab5# cd 8192
+root@socfpga:~/lab5/8192# ./operation 8192
+Initializing OpenCL
+Platform: Altera SDK for OpenCL
+Using 1 device(s)
+  de1soc_sharedonly : Cyclone V SoC Development Kit
+Using AOCX: operation.aocx
+ERROR: CL_INVALID_BUFFER_SIZE 
+Location: host/src/main.cpp:201
+Failed to create buffer for input M1
+root@socfpga:~/lab5/8192# 
+

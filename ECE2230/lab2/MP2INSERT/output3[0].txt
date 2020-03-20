@@ -1,0 +1,40 @@
+Lab2 list size is 10. Possible commands:
+List: INSERT
+FIND id
+REMOVE id
+UPDATE id state
+SCHEDULE id priority
+DETERMINE
+REVERSE
+PRINT
+Queue      : ADDTAIL; RMHEAD; PRINTHEAD; PRINTQ
+           : STATS; QUIT
+Number of Args:Arg 0:No runable tasks.
+Number of Args:Arg 0:Arg 1:No runable tasks.
+Did not find: 1
+Did not find: 2
+Did not find: 22
+Did not find: -1
+Did not remove: 1
+Did not remove: 2
+Did not remove: 2
+Did not remove: -1
+Number records: 0, Order: Ascending
+Number records in queue: 0
+List empty
+Did not find task to schedule...
+Did not find task to schedule...
+Did not find task to schedule...
+Removing 0 finshed tasks
+List reversed, new order: Descending
+Number records: 0, Order: Descending
+Number records in queue: 0
+List empty
+List reversed, new order: Ascending
+Number records: 0, Order: Ascending
+Number records in queue: 0
+List empty
+Queue empty, did not remove
+Queue is empty
+Queue empty
+Goodbye

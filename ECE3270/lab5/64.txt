@@ -1,0 +1,25 @@
+root@socfpga:~/lab5/64# ./operation 64
+Initializing OpenCL
+Platform: Altera SDK for OpenCL
+Using 1 device(s)
+  de1soc_sharedonly : Cyclone V SoC Development Kit
+Using AOCX: operation.aocx
+My operation starts here: 
+Addition:
+Launching for device 0 (4096 elements)
+
+Time: 0.932 ms
+Kernel time (device 0): 0.109 ms
+multiplication:
+Launching for device 0 (64 elements)
+
+Time: 0.602 ms
+Kernel time (device 0): 0.093 ms
+
+Time for addition serial: 0.333 ms
+
+Time for multiplication serial: 0.262 ms
+
+root@socfpga:~/lab5/64# diff MULTOUT.bin MULT_ser.bin                                                                                                                                                                
+root@socfpga:~/lab5/64# diff ADDOUT.bin ADD_ser.bin
+

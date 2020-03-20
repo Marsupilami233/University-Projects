@@ -1,0 +1,105 @@
+Lab2 list size is 10. Possible commands:
+List: INSERT
+FIND id
+REMOVE id
+UPDATE id state
+SCHEDULE id priority
+DETERMINE
+REVERSE
+PRINT
+Queue      : ADDTAIL; RMHEAD; PRINTHEAD; PRINTQ
+           : STATS; QUIT
+Priority:Wallclocktime:Number of Args:Arg 0:
+Inserted: 0
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:
+Inserted: 1
+Priority:Wallclocktime:Number of Args:Arg 0:Arg 1:Arg 2:
+Inserted: 2
+Number records: 3, Order: Ascending
+Number records in queue: 0
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = QUEUED
+   2: Task ID: 2 priority = 3 state = QUEUED
+Number of Args:Arg 0:Task 0 is runable.
+Number of Args:Arg 0:Arg 1:Task 1 is runable.
+Number of Args:Arg 0:Arg 1:Arg 2:Task 2 is runable.
+Task 2 has state of RUNNING
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = QUEUED
+   2: Task ID: 2 priority = 3 state = RUNNING
+Task 2 has state of BLOCKED
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = QUEUED
+   2: Task ID: 2 priority = 3 state = BLOCKED
+Task 2 has state of FINISHED
+Number of Args:Arg 0:Arg 1:Arg 2:No runable tasks.
+Number of Args:Arg 0:Arg 1:Arg 2:No runable tasks.
+Task 1 has state of RUNNING
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = RUNNING
+   2: Task ID: 2 priority = 3 state = FINISHED
+Task 1 has state of BLOCKED
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = BLOCKED
+   2: Task ID: 2 priority = 3 state = FINISHED
+Task 1 has state of FINISHED
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = FINISHED
+   2: Task ID: 2 priority = 3 state = FINISHED
+Number of Args:Arg 0:Arg 1:No runable tasks.
+Number records: 3, Order: Ascending
+Number records in queue: 0
+List has 3 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 1 priority = 2 state = FINISHED
+   2: Task ID: 2 priority = 3 state = FINISHED
+Removing 1 finshed tasks
+Task ID: 1 priority = 2 state = FINISHED
+Number records: 2, Order: Ascending
+Number records in queue: 0
+List has 2 records
+   0: Task ID: 0 priority = 1 state = QUEUED
+   1: Task ID: 2 priority = 3 state = FINISHED
+Number of Args:Arg 0:Task 0 is runable.
+Number of Args:Arg 0:Task 0 is runable.
+Task 0 has state of RUNNING
+List has 2 records
+   0: Task ID: 0 priority = 1 state = RUNNING
+   1: Task ID: 2 priority = 3 state = FINISHED
+Task 0 has state of BLOCKED
+List has 2 records
+   0: Task ID: 0 priority = 1 state = BLOCKED
+   1: Task ID: 2 priority = 3 state = FINISHED
+Task 0 has state of FINISHED
+List has 2 records
+   0: Task ID: 0 priority = 1 state = FINISHED
+   1: Task ID: 2 priority = 3 state = FINISHED
+Number of Args:Arg 0:No runable tasks.
+Number records: 2, Order: Ascending
+Number records in queue: 0
+List has 2 records
+   0: Task ID: 0 priority = 1 state = FINISHED
+   1: Task ID: 2 priority = 3 state = FINISHED
+Removing 1 finshed tasks
+Task ID: 0 priority = 1 state = FINISHED
+Number records: 1, Order: Ascending
+Number records in queue: 0
+List has 1 record.
+   0: Task ID: 2 priority = 3 state = FINISHED
+Did not remove: 0
+Did not remove: 1
+Removed: 2
+Task ID: 2
+     priority = 3
+     state     = FINISHED
+     time = 3.000000e+00
+     nargs = 3
+     args = { 3,  3,  3, }
+Did not remove: -1
+Goodbye
